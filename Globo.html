@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Globo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Globo.css" />
+    <script src="Globo.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="undefined - Imgur.png" alt="logo globo" class="logo-img" />
+      </div>
+      <form>
+        <input
+          type="text"
+          class="user_name"
+          id="name"
+          placeholder="Ingresa tu usuario..."
+        />
+      </form>
+    </header>
+    <div class="grid-layout">
+      <section class="cabecera">
+        <div class="foto">
+          <img src="JaneDoe.jpg" alt="logo de perfil" class="foto" />
+        </div>
+        <div class="info-perfil">
+          <h1>Jane Doe</h1>
+          <p><strong>Email:</strong> jane_done@email.com</p>
+          <p><strong>Fecha de nacimiento:</strong> 01/05/1996</p>
+          <p><strong>Telefono:</strong> 918-936-9585</p>
+          <p><strong>Ciudad:</strong> Tokyo, Japón</p>
+          <div class="textogris">
+            <p>Trabajando en <strong>Lawn N</strong></p>
+          </div>
+        </div>
+        <div class="boton">
+          <form>
+            <button type="submit" id="btnSeguir">Seguir</button>
+          </form>
+        </div>
+      </section>
+      <section class="contenido">
+        <div class="textogris">
+          <p>Publicado hace 1 semana</p>
+        </div>
+        <div>
+          <img
+            src="Foto.jpg"
+            alt="foto de la publicacion"
+            class="foto-publicacion"
+          />
+        </div>
+        <div class="like">
+          <form>
+            <button type="submit" id="meGusta">Me Gusta</button>
+          </form>
+          <p><strong id="likes">200</strong> Likes</p>
+        </div>
+        <p>Comentarios</p>
+        <p>
+          <strong>Juan Perez </strong> ¡Wow, esa foto de Tokio es impresionante!
+        </p>
+        <p>
+          <strong>Kathleen J Rennie</strong> ¡Esta foto de Tokio es simplemente
+          espectacular! Me trae tantos recuerdos.
+        </p>
+        <div id="listadoComentarios"></div>
+        <form>
+          <div class="boton">
+            <textarea
+              name="comentario"
+              id="comentario"
+              placeholder="Deja tu comentario..."
+            ></textarea>
+            <button type="submit" id="textoComentario">Comentar</button>
+          </div>
+        </form>
+      </section>
+      <section class="informacion">
+        <h3>Sobre mí</h3>
+        <p>
+          !Hola a todos! Soy Jane, y actualmente vivo en la vibrante y
+          emocionante ciudad de Tokio, Japón. Me encanta capturar la esencia de
+          la vida urbana a través de mi lente, explorando el contraste entre la
+          arquitectura moderna y las tradiciones centenarias que conviven en
+          esta metrópolis única. Desde rascacielos deslumbrantes y calles
+          bulliciosas hasta templos serenos y jardines tranquilos, encuentro
+          inspiración en cada rincón de esta increíble ciudad.
+        </p>
+      </section>
+    </div>
+  </body>
+</html>

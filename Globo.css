@@ -1,0 +1,149 @@
+
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F4F4F5;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 70px;
+    background-color: #3B82F6;
+    flex-direction: row;
+    padding: 0px 30px;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 15px 0px ;
+}
+.logo-img{
+    height: 50px;
+    
+}
+.user_name{
+    border: solid 1.5px rgb(252, 250, 250);
+    border-radius: 16px;
+    background: #DBEAFE;
+    padding: 16px;
+    font-size: 10px;
+}
+.foto{
+    float: left;
+    width: 10em;
+    height: 10em;
+    margin-right: 1em;
+    border-radius: 50%;
+}
+.cabecera{
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    background-color: white;
+    border: solid 1.5px rgb(252, 250, 250);
+    border-radius: 16px;
+}
+.cabecera > p{
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+.foto-publicacion{
+    width: 500px;
+    border-radius: 5%;
+    
+}
+.contenido{
+    margin: 50px;
+    padding: 30px;
+    display: flex;
+    background-color: white;
+    border: solid 1px rgb(252, 250, 250);
+    border-radius: 16px;
+    flex-direction: column;
+}
+.informacion{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    background-color: white;
+    border: solid 1.5px rgb(252, 250, 250);
+    border-radius: 16px;
+    flex-direction: column;
+    color: #71717A;
+    
+}
+.boton button{
+    color: white;
+    background-color: #3B82F6;
+    border: 2px solid #3B82F6;
+    border-radius: 16px;
+    min-height: 32px;
+    height: auto;
+    min-width: 72px;
+    padding: 4px 14px 4.5px 3.5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.like button{
+    color: #3B82F6;
+    background-color: #F4F4F5;
+    border: 2px solid #F4F4F5;
+    border-radius: 5px;
+    min-height: 32px;
+    height: auto;
+    min-width: 72px;
+    padding: 4px 14px 4.5px 3.5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.like p{
+    display: inline-block;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.textogris{
+    color: #71717A;
+}
+
+textarea{
+    border: solid 1.5px rgb(252, 250, 250);
+    border-radius: 10px;
+    background: #F4F4F5;
+    padding: 16px;
+    font-size: 15px;
+    width: 60%;
+    height: 10px;
+}
+
+
+.grid-layout{
+    display: grid;
+    grid-template-areas: 'cabecera cabecera cabecera'
+                         'contenido contenido informacion'
+                         'contenido contenido informacion'
+                         'contenido contenido informacion';
+    
+   
+
+}
+
+.cabecera{
+    grid-area: cabecera;
+}
+
+.contenido{
+    grid-area: contenido;
+}
+
+.informacion{
+    grid-area: informacion;
+}
+
+
+
