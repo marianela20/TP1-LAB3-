@@ -16,9 +16,9 @@ document.getElementById('btnSeguir').addEventListener('click', seguir);
 
 function darMeGusta(evento){
     evento.preventDefault();
-    
+    let num = 200;
     let likes = document.getElementById('likes');
-    likes.textContent = '201';
+    likes.textContent = num += 1;
 
 }
 document.getElementById('meGusta').addEventListener('click', darMeGusta);
@@ -42,8 +42,8 @@ function agregarComentario(evento){
     parrafoo.appendChild(texto);
     document.getElementById('listadoComentarios').appendChild(parrafoo);
     
-    usuarioIngresado = document.getElementById('name').value = '';
-    textoComentario = document.getElementById('comentario').value = '';
+    document.getElementById('name').value = '';
+    document.getElementById('comentario').value = '';
 }
 document.getElementById('textoComentario').addEventListener('click',agregarComentario);
 
